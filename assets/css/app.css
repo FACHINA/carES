@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "Bahnschrift";
+    src: url("../fonts/BAHNSCHRIFT.TTF");
+}
+
+
+:root {
+    --bs-font-sans-serif: Bahnschrift, "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+
+button, input {
+    font-family: var(--bs-font-sans-serif) !important;
+}
+
+.aspect-hero {
+    aspect-ratio: 16/5 !important;
+}
+
+@media (max-width: 992px) {
+    .aspect-hero {
+        aspect-ratio: 16/9 !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .aspect-hero {
+        aspect-ratio: 16/7 !important;
+    }
+}
+
+.-mb-px {
+    margin-bottom: -1px;
+}
+
+/* .btn {
+    line-height: 1.2;
+} */
+
+.hover-text-red:hover,
+.hover-text-red:active {
+    color: var(--bs-red) !important;
+}
+
+.nav-link.active {
+    color: var(--bs-primary) !important;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.text-transform-none {
+    text-transform: none !important;
+}
+
+.d-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.snackbar-action svg, .btn-hover svg {
+    transform: translateX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+.snackbar-action:hover svg, .btn-hover:hover svg {
+    transform: translateX(0.3rem);
+    transition: all 0.2s ease-in-out;
+}
+
+a {
+    color: #000;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover,
+a[data-bs-toggle="dropdown"].show {
+    color: var(--bs-primary) !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.title-divider {
+    height: 0.2rem;
+    width: 4rem;
+    border-radius: 0.1rem;
+    background: var(--bs-primary);
+    border: 0px;
+}
+
+.title-divider.sm {
+    height: 0.15rem;
+    width: 3rem;
+    border-radius: 0.1rem;
+    background: var(--bs-primary);
+    border: 0px;
+}
+
+.title-divider.xs {
+    height: 0.1rem;
+    width: 1.3rem;
+    border-radius: 0.1rem;
+    background: var(--bs-primary);
+    border: 0px;
+}
