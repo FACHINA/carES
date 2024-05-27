@@ -29,7 +29,7 @@
                 <div class="row mx-0">
                     <div class="col-lg-6 text-lg-end text-start">
                         <div class="container py-3">
-                            <div class="fw-bold h5 mt-2 mb-3">Qui sommes nous ?</div>
+                            <div class="fw-bold h5 mt-2 mb-3">Nos réalisations</div>
                             <p class="fw-light mt-1 col-xxl-11 ms-auto">
                                 Carrefour de l'Espoir en abrégé CarES, est une Organisation
                                 non Gouvernemetale à but non lucratif reconnue par le gouvernemet
@@ -42,7 +42,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-6 bg-primary bg-opacity-10 text-lg-start text-end">
+                    <div class="col-lg-6 bg-primary bg-opacity-10 text-lg-start text-end--">
                         <div class="container py-3">
                             <div class="fw-bolder h5 text-bg-primary bg-opacity-100 d-inline-block p-2">
                                 <span class="mb-n1 d-block">AGIR AVEC CarES</span>
