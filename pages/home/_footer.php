@@ -1,4 +1,4 @@
-<div class="bg-footer">
+<div class="bg-footer text-center-- text-start">
     <div class="container py-5">
         <div class="row gy-4">
             <div class="col-xl-3 col-md-6">
@@ -72,8 +72,10 @@
                     et vous pourrez vous désinscrire à tout
                     moment.
                 </p>
-                <button class="btn btn-on-footer btn-lg fw-bold text-uppercase">S'inscrire</button>
-                <div class="d-flex gx-2 flex-row gap-3 flex-wrap mt-3">
+                <div>
+                    <button class="btn btn-on-footer btn-lg fw-bold text-uppercase">S'inscrire</button>
+                </div>
+                <div class="d-inline-flex gx-2 flex-row gap-3 flex-wrap mt-3">
                     <a class="link-light" href="javascript:void(0)">
                         <svg fill="currentColor" class="rounded-1" width="30" height="30" viewBox="4 4 40 40" xmlns="http://www.w3.org/2000/svg">
                             <title>facebook</title>

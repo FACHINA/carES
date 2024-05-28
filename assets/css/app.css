@@ -1,8 +1,4 @@
-@font-face {
-    font-family: "Bahnschrift";
-    src: url("../fonts/BAHNSCHRIFT.TTF");
-}
-
+@import url(font.css);
 
 :root {
     --bs-font-sans-serif: Bahnschrift, "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
@@ -13,18 +9,18 @@ button, input {
 }
 
 .aspect-hero {
-    aspect-ratio: 16/5 !important;
-}
-
-@media (max-width: 992px) {
-    .aspect-hero {
-        aspect-ratio: 16/9 !important;
-    }
+    aspect-ratio: 16/4 !important;
 }
 
 @media (max-width: 1200px) {
     .aspect-hero {
         aspect-ratio: 16/7 !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .aspect-hero {
+        aspect-ratio: 16/9.5 !important;
     }
 }
 
@@ -102,4 +98,27 @@ a[data-bs-toggle="dropdown"].show {
     border-radius: 0.1rem;
     background: var(--bs-primary);
     border: 0px;
+}
+
+.display-count {
+    font-size: 5rem;
+}
+
+.count-more::before {
+    content: "+";
+}
+
+.card-svg {
+    height: 3rem;
+    object-fit: contain;
+    object-position: center;
+}
+
+.counter-bg-icon {
+    position: absolute;
+    width:9rem;
+    top:0;
+    bottom:0;
+    opacity:0.3;
+    right:5rem;
 }

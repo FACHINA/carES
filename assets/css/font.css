@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "Bahnschrift";
+    src: url("../fonts/BAHNSCHRIFT.TTF");
+}
+
+.family-bahnschrift {
+    font-family: "Bahnschrift" !important;
+}
+
+
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-style: italic;
+    src: url("../fonts/Montserrat-Italic-VariableFont_wght.ttf");
+}
+
+.family-montserrat {
+    font-family: "Montserrat" !important;
+}
+
+/* Normal */
+
+@font-face {
+    font-family: "Scandia";
+    font-weight: bold;
+    font-style: normal;
+    src: url("../fonts/SCANDIA-BOLD.TTF");
+}
+
+@font-face {
+    font-family: "Scandia";
+    font-weight: 300;
+    font-style: normal;
+    src: url("../fonts/SCANDIA-LIGHT.TTF");
+}
+
+@font-face {
+    font-family: "Scandia";
+    font-weight: 500;
+    font-style: normal;
+    src: url("../fonts/SCANDIA-MEDIUM.TTF");
+}
+
+@font-face {
+    font-family: "Scandia";
+    font-weight: 400;
+    font-style: normal;
+    src: url("../fonts/SCANDIA-REGULAR.TTF");
+}
+ 
+/* Italic */
+
+
+@font-face {
+    font-family: "Scandia";
+    font-weight: bold;
+    font-style: italic;
+    src: url("../fonts/SCANDIA-BOLDITALIC.TTF");
+}
+
+@font-face {
+    font-family: "Scandia";
+    font-weight: 300;
+    font-style: italic;
+    src: url("../fonts/SCANDIA-LIGHTITALIC.TTF");
+}
+
+@font-face {
+    font-family: "Scandia";
+    font-weight: 500;
+    font-style: italic;
+    src: url("../fonts/SCANDIA-MEDIUMITALIC.TTF");
+}
+
+@font-face {
+    font-family: "Scandia";
+    font-weight: 400;
+    font-style: italic;
+    src: url("../fonts/SCANDIA-REGULARITALIC.TTF");
+}
+
+.family-scandia {
+    font-family: "Scandia" !important;
+}
